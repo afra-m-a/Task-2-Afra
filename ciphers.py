@@ -13,7 +13,7 @@ class CaesarCipher:
         if ch.islower():
             base = ord('a')
             return chr((ord(ch) - base + shift) % 26 + base)
-        return ch  # digits, punctuation, spaces remain as is
+        return ch  
 
     @staticmethod
     def encrypt(text: str, key: int) -> str:
