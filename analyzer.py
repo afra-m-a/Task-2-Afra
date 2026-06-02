@@ -25,7 +25,7 @@ class CaesarCracker:
         best_text = ""
         best_key = 0
 
-        for shift in range(1, 26):  # shift 0 is trivial, skip
+        for shift in range(1, 26):  
             decrypted = CaesarCipher.decrypt(ciphertext, shift)
             score = cls._score_text(decrypted)
             if score > best_score:
