@@ -98,7 +98,3 @@ python main.py
 * **Target Ciphertext:** `Wkh txlfn eurzq ira mxpsv ryhu wkh odcb grj`
 * **Calculated Metrics:** `Most likely key: 3`
 * **Restored Plaintext:** `The quick brown fox jumps over the lazy dog`
-
-```
-
-```
